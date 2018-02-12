@@ -31,7 +31,7 @@ export class TasksListComponent implements OnInit {
     }
     onTaskChange(event,task){
         //return this.tas
-        console.log("call task change")
+        this.taskService.saveTask(task,event.target.checked).subscribe();
     }
 
 }
