@@ -39,3 +39,9 @@
     
     
        
+* https://www.npmjs.com/
+
+* 安装https://www.npmjs.com/package/rimraf
+npm install --save-dev rimraf
+npm install --save-dev mkdirp
+npm install --save-dev copyfiles
