@@ -2,7 +2,7 @@ import './vendor.ts';
 
 import { NgModule, Injector } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HTTP_INTERCEPTORS } from '@angular/common/http';
+import {HTTP_INTERCEPTORS, HttpClientModule} from '@angular/common/http';
 import { Ng2Webstorage, LocalStorageService, SessionStorageService  } from 'ngx-webstorage';
 import { JhiEventManager } from 'ng-jhipster';
 
@@ -37,6 +37,7 @@ import {
         JblogAdminModule,
         JblogAccountModule,
         JblogEntityModule,
+        HttpClientModule,
         // jhipster-needle-angular-add-module JHipster will add new module here
     ],
     declarations: [
