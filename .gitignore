@@ -36,3 +36,4 @@ tasks/tasks.iml
 
 tasks/src/main/fontend/node_modules/
 tasks/target/
+tasks/.idea/workspace.xml
