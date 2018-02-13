@@ -1,3 +1,38 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+
+### fontend 
+node_modules/
+node_modules/
+
+tasks/.idea/
+tasks/target/
+tasks/tasks.iml
+.idea
+.DS_Store
+
 tasks/src/main/fontend/node_modules/
 tasks/target/
-tasks/.idea/
